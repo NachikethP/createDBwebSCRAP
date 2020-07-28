@@ -1,0 +1,29 @@
+Enter the db name:olx_bike_rx100
+Table successfully created!:
+inserted into tables:('₹ 75,000', '1991 - 30,000 km', 'YAMAHA RX100 paper Current insurance Japan cylinder Japan corporator', 'AOK Nagar, Erode')
+inserted into tables:('₹ 38,000', '1994 - 500 km', 'yahama rx100', 'Char Brahmanagar, Nabadwip')
+inserted into tables:('₹ 1,15,000', '1988 - 32 km', 'Yamaha rx100 1988 original', 'Sangolda, Saligao')
+inserted into tables:('₹ 45,000', '2000 - 500 km', 'Yamaha rx100', 'Housing Board Colony, Gajwel')
+inserted into tables:('₹ 68,000', '1991 - 5,000 km', 'Yamaha rx100', 'Kuruppampady, Perumbavoor')
+inserted into tables:('₹ 38,000', '1985 - 57,860 km', 'RX100 Japan lnjon', 'Ramadootha Nagar, Pargi')
+inserted into tables:('₹ 59,000', '1995 - 35,000 km', 'Yamaha RX100 Bike For Sale', 'Vanagaram Mettukuppam Vivekananda Nagar, Chennai')
+inserted into tables:('₹ 50,000', '1999 - 10,000 km', 'YAHAMA RX100 FOR URGENT SELL', 'Katraj, Pune')
+inserted into tables:('₹ 60,000', '1989 - 200 km', 'Rx100 tip top condition silver  black colour', 'Alipura, Bodeli')
+inserted into tables:('₹ 94,000', '2000 - 0 km', 'RX100 Yamaha km 0000', 'Arun Nagar, Walajapet')
+inserted into tables:('₹ 58,200', '1990 - 42,368 km', 'Yamaha RX100', 'Tirurangadi, Kerala')
+inserted into tables:('₹ 21,000', '1997 - 50,000 km', 'rx100 new condtion', 'Patel Nagar, Orai Jalaun District')
+inserted into tables:('₹ 88,000', '1990 - 0 km', 'Rx100 neat condition', 'Kotangal, Venkitangu')
+inserted into tables:('₹ 45,000', '1992 - 40,000 km', 'Yamaha rx100', 'Aranthavapuram, Ammapettai Thanjavur District')
+inserted into tables:('₹ 38,000', '1996 - 20,000 km', 'YAMAHA RX100', 'Shamunpet, Warangal')
+inserted into tables:('₹ 33,000', '1992 - 63,000 km', 'Yamaha rx100.. brand new engine work original.', 'Soma Talav, Vadodara')
+inserted into tables:('₹ 40,000', '1995 - 654,830 km', 'Yamaha Rx100', 'Anbu Nagar, Thanjavur')
+inserted into tables:('₹ 6,000', 'Yamaha rx100 made in  Japan', 'Ankali Village, Sangli (-Miraj)')
+Traceback (most recent call last):
+  File "C:\Users\NACHIKETH\AppData\Local\atom\app-1.48.0\finpro.py", line 34, in <module>
+    connect.insert_into_table(dbname, tuple(bike_dict.values()))
+  File "C:\Users\NACHIKETH\AppData\Local\atom\app-1.48.0\connect.py", line 14, in insert_into_table
+    conn.execute(insert_sql, values)
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 3 supplied.
+
+Process returned 1 (0x1)        execution time : 17.995 s
+Press any key to continue . . .
